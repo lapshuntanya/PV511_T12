@@ -9,7 +9,7 @@ int main() {
 
     int** m = nullptr;
     cout << "Memory: " << m << endl;
-    createMemor(m, row, col);
+    createMemory(m, row, col);
     cout << "Memory: " << m << endl;
 
     randArray(m, row, col);
@@ -17,7 +17,7 @@ int main() {
     cout << "Memory: " << m << endl;
 
 
-    destroyMemor(m, row, col);
+    destroyMemory(m, row, col);
     cout << "Memory: " << m << endl;
 
     return 0;
