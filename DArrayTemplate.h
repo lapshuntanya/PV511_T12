@@ -12,4 +12,5 @@ void createMemory(T** &matr, int row, int col) {
         //Під кожний покажчик створюємо масив значень
         matr[i] =new T[col] {0};
     }
+
 }
