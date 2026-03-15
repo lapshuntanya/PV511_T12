@@ -27,6 +27,10 @@ void destroyMemory(T** &matr, int &row, int &col) {
 }
 
 template <typename  T>
-void randArray(T** matr, int row, int col) {
-
+void randArray(T** matr, int row, int col, int A = 1, int B = 10) {
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < col; j++) {
+            matr[i][j] = rand()%(B-A +1) + A;
+        }
+    }
 }
