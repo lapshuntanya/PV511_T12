@@ -1,5 +1,7 @@
 #pragma once
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 template <typename T>
