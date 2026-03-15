@@ -25,3 +25,8 @@ void destroyMemory(T** &matr, int &row, int &col) {
     matr = nullptr;
     row = col = 0;
 }
+
+template <typename  T>
+void randArray(T** matr, int row, int col) {
+
+}
