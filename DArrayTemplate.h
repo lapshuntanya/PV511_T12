@@ -34,3 +34,15 @@ void randArray(T** matr, int row, int col, int A = 1, int B = 10) {
         }
     }
 }
+
+template <typename T>
+void printArray(T** matr, int row, int col, int c_width = 3) {
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < col; j++) {
+            cout.width(c_width);
+            cout << matr[i][j];
+        }
+        cout << endl;
+    }
+    cout << "\n\n";
+}
